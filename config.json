@@ -1,0 +1,26 @@
+{
+   "DataSource": {
+      "SQLServerInstance": "unlimitedaspect.database.windows.net",
+      "SQLServerUser": "aspectsa",
+      "SQLServerPassword": "PO%P*SurXTp2",
+      "CatalogName": "SharpKPI"
+   },
+   "DataTarget": {
+      "SQLServerInstance": "localhost",
+      "SQLServerUser": "sharp",
+      "SQLServerPassword": "unsysT3@m3",
+      "CatalogName": "SharpKPI"
+   },
+   "Options": {
+      "MonthSize": 13,
+      "WipeStaging": true,
+      "WipeDBO": false,
+      "DoKPIRun": true
+   },
+   "Clients": [
+      {
+         "Tag": "OHCI",
+         "ReplaceTag": "OHCI"
+      }
+   ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "directionsdashboarddownload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "download": "node download.js",
+    "load": "node load.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "joi": "^13.1.1",
+    "mssql": "^4.1.0"
+  }
+}
